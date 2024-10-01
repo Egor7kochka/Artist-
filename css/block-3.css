@@ -25,7 +25,7 @@ filter: grayscale(100%);
 transition: filter 0.1s transform 0.1s;
 }
 .block-3 .information:nth-child(1) {
-    background-image: url(images/4771476ac6d8548f90ffda929bf444f6.png);
+    background-image: url(.../images/4771476ac6d8548f90ffda929bf444f6.png);
     align-items: start;
     padding: 50px;
     justify-content: left;
@@ -40,20 +40,20 @@ transition: filter 0.1s transform 0.1s;
     text-align: left;
 }
 .block-3 .information:nth-child(3) {
-background-image: url(images/IMG_5985.png);
+background-image: url(.../images/IMG_5985.png);
 }
 .block-3 .information:nth-child(4) {
-background-image: url(images/c8daba389556390aad55c6b14790313c.jfif);
+background-image: url(.../images/c8daba389556390aad55c6b14790313c.jfif);
 }
 .block-3 .information:nth-child(5) {
-background-image: url(images/f096a3a4cd3a123e89c1bae620acab05.jfif);
+background-image: url(.../images/f096a3a4cd3a123e89c1bae620acab05.jfif);
 }
 .block-3 .information:nth-child(6) {
-background-image: url(images/80603fe486d6c4eb5e99621f1bd4f5e3.jfif);
+background-image: url(.../images/80603fe486d6c4eb5e99621f1bd4f5e3.jfif);
  }
  .block-3 .information:nth-child(2) {
 position: relative;
-background-image: url(images/IMG_6059.png);
+background-image: url(.../images/IMG_6059.png);
  }
  .block-3 .information:nth-child(2) img{
  position: absolute;
