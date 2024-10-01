@@ -1,0 +1,27 @@
+.stroke {
+    display: flex;
+    width: 100vw;
+    max-width: 3000px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: 'Dela Gothic One', Arial, Helvetica, sans-serif;
+  }
+  
+  .stroke__item {
+    flex-shrink: 0;
+    font-size: clamp(1.125rem, 0.8023rem + 1.2064vw, 2.25rem);
+    line-height: 1.5;
+    font-weight: 900;
+    text-transform: uppercase;
+    animation: running-animation 20s linear infinite;
+    white-space: nowrap;
+  }
+  
+  @keyframes running-animation {
+    0% {
+      transform: translateZ(0);
+    }
+    100% {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
